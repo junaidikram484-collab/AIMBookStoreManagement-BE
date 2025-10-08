@@ -80,7 +80,7 @@ After successful login via the `login` mutation, you’ll receive a JWT token to
 The GraphQL endpoint is available at:
 
 ```
-https://localhost:5001/graphql
+https://localhost:7124/graphql
 ```
 
 Use tools like **Banana Cake Pop**, **Altair**, or **Postman** to explore the schema.
@@ -174,7 +174,7 @@ The app will:
 Open your browser or a GraphQL client and navigate to:
 
 ```
-https://localhost:5001/graphql
+https://localhost:7124/graphql
 ```
 
 ---
