@@ -1,0 +1,74 @@
+#------------------------------------------------------------------------------
+# Visual Studio / Rider / IDE Specific
+#------------------------------------------------------------------------------
+## User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.tss
+*.vssscc
+*.vspscc
+
+## Rider IDE
+.idea/
+*.iws
+*.bak
+*.v11.suo
+*.v12.suo
+
+#------------------------------------------------------------------------------
+# Build and Dependencies
+#------------------------------------------------------------------------------
+## Build artifacts
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+[Tt]emp/
+**/*.pdb
+
+## NuGet packages
+# Local packages folder (if used)
+packages/
+# NuGet cache files
+*.nupkg
+# Dependency restore files
+project.lock.json
+project.fragment.lock.json
+
+## Runtime and testing
+TestResults/
+.vs/
+.history/
+*.log
+*.sqlite
+/runtimeconfig.dev.json
+
+#------------------------------------------------------------------------------
+# Cross-Platform / Operating System Files
+#------------------------------------------------------------------------------
+# Mac
+.DS_Store
+
+# Linux
+*~
+# Logs and other temporary files
+*.log
+*.temp
+# Thumbnails
+._*
+
+#------------------------------------------------------------------------------
+# ASP.NET Core Specific
+#------------------------------------------------------------------------------
+# Development-time SQL Server Express files
+*.mdf
+*.ldf
+
+# Local settings (containing secrets/connection strings)
+appsettings.*.json
+!appsettings.json
+!appsettings.Development.json
+# Note: The two lines above include 'appsettings.json' and 'appsettings.Development.json'
+# but exclude all others like 'appsettings.Production.json' to prevent secrets leak.
