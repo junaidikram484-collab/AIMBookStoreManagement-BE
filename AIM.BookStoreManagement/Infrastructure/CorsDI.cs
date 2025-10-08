@@ -9,7 +9,7 @@ public static class CorsDI
         {
             options.AddDefaultPolicy(policy =>
             {
-                policy.WithOrigins("https://localhost:7119") // Your Blazor client URL
+                policy.AllowAnyOrigin() // Your Blazor client URL
                     .AllowAnyHeader()
                     .AllowAnyMethod()
                     .AllowCredentials();

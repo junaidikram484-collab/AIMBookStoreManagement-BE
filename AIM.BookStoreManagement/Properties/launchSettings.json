@@ -6,7 +6,7 @@
       "launchUrl": "swagger",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
-        "ConnectionString": "Host=localhost;Port=5432;Database=BookStore;Username=postgres",
+        "ConnectionString": "Host=pg-1e0b9674-ikramjunaid484-de43.l.aivencloud.com;Port=27915;Database=defaultdb;Username=avnadmin;Password=AVNS_V0S08b8mPiSwLY41J4Q;SSL Mode=Require;Trust Server Certificate=true;",
         "JwtKey": "A_VERY_LONG_SECRET_KEY_THAT_IS_AT_LEAST_32_CHARACTERS_LONG",
         "Audience": "https://localhost:7119",
         "Issuer": "https://localhost:7124"
