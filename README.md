@@ -218,12 +218,6 @@ dotnet ef database update --project AIM.BookStoreManagement.DB
 
 ---
 
-## 🧾 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
-
----
-
 ## 👨‍💻 Contributors
 
 - **Your Name** — Backend Developer  
@@ -231,12 +225,5 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 ---
 
-## 📞 Support
-
-For issues or suggestions:
-- Open an issue in the GitHub repository  
-- Or contact the maintainer: `dev-team@yourdomain.com`
-
----
 
 > _BookStore Management — built with ❤️ using .NET 6 and GraphQL_
