@@ -11,8 +11,7 @@ public static class CorsDI
             {
                 policy.AllowAnyOrigin() // Your Blazor client URL
                     .AllowAnyHeader()
-                    .AllowAnyMethod()
-                    .AllowCredentials();
+                    .AllowAnyMethod();
             });
         });
     }
